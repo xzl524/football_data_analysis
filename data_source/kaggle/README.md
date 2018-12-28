@@ -1,4 +1,4 @@
-# Kaggle欧洲足球数据库使用指南
+### Kaggle欧洲足球数据库使用指南
 
 * 从Kaggle下载[欧洲足球数据库](https://www.kaggle.com/hugomathien/soccer)，解压并保存到本地（可保存到本目录），得到数据库文件database.sqlite。
 
@@ -13,7 +13,7 @@
 path_to_database: database.sqlite的路径.
 
 
-# Kaggle European Soccer Database Usage
+### Kaggle European Soccer Database Usage
 
 * Download [Kaggle European Soccer Database](https://www.kaggle.com/hugomathien/soccer), unzip and save database.sqlite to local disk (it can be saved in current directory).
 
