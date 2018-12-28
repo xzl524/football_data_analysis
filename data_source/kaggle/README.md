@@ -4,11 +4,13 @@
 
 * 若需要从数据库中输出比赛相关数据统计，请使用以下命令执行extract.py脚本，输出比赛相关数据统计信息的csv表格。
 
-python extract.py [path_to_database]
+执行命令行
+	
+	python extract.py [path_to_database]
 	
 参数解释
-		
-	path_to_database: database.sqlite的路径.
+
+path_to_database: database.sqlite的路径.
 
 
 # Kaggle European Soccer Database Usage
@@ -17,8 +19,10 @@ python extract.py [path_to_database]
 
 * Run extract.py in command to export event stats csv files if match event stats are desired.
 
-python extract.py [path_to_database]
+Command-line Usage
+	
+	python extract.py [path_to_database]
 
 Parameter Descriptions
 
-	path_to_database: str, directory of database.sqlite.
+path_to_database: str, directory of database.sqlite.
