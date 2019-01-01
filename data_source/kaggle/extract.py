@@ -9,7 +9,7 @@ ALL_STATISTICS = ['goal', 'shoton', 'shotoff', 'foulcommit', 'card', 'cross', 'c
 
 def extract_event_stats_from_match(match, event):
     """
-    Extract event statistics from match table.
+    Extract event statistics from xml strings in match table.
     
     Parameters
     ----------
@@ -52,14 +52,14 @@ def extract_event_stats_from_match(match, event):
         
     return df
 
-def export_all_stats(database_dir, output_folder, statistics=ALL_STATISTICS):
+def export_all_stats(data_folder, statistics=ALL_STATISTICS):
     """
     Export event stats to csv files.
     
     Parameters
     ----------
-    database_dir:
-        str, path to database.sqlite.
+    data_folder:
+        str, path to data folder.
     output_folder:
         str, path to export. Default is the folder with database.sqlite.
     statistics:
@@ -70,16 +70,16 @@ def export_all_stats(database_dir, output_folder, statistics=ALL_STATISTICS):
         True
     """
 
-    con=sqlite3.connect(database_dir)
+    con=sqlite3.connect(os.path.join(data_folder, 'database.sqlite'))
     match = pd.read_sql_query('select * from Match', con)
     
-    for event in statistics:
-        df = extract_event_stats_from_match(match, event)
-        df.to_csv(os.path.join(output_folder, '{}.csv'.format(event)), index=False)
+    for event_type in statistics:
+        if not os.path.isfile(os.path.join(data_folder, '{}.csv'.format(event_type))):
+            df = extract_event_stats_from_match(match, event_type)
+            df.to_csv(os.path.join(data_folder, '{}.csv'.format(event_type)), index=False)
     
     return True
 
 if __name__ == '__main__':
-    
-    database_dir = sys.argv[1]
-    export_all_stats(database_dir, os.path.curdir)
+
+    export_all_stats(os.path.curdir)
