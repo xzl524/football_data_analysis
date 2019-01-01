@@ -12,7 +12,7 @@
 	1. [足球运动员的相对年龄效应以及其他](https://github.com/xzl524/football_data_analysis/blob/master/projects/european_soccer_database_analysis/01_relative_age_effect_and_others_cn.ipynb)
 	2. [职业足球比赛的进球规律](https://github.com/xzl524/football_data_analysis/blob/master/projects/european_soccer_database_analysis/02_goal_poisson_cn.ipynb)
 * 足球比赛预测
-	1. [利用机器学习分析足球比赛结果](https://github.com/xzl524/football_data_analysis/blob/master/projects/match_outcome_prediction/football_match_outcome_prediction_kaggle_dataset_CN.ipynb)
+	1. [利用机器学习分析足球比赛结果](https://github.com/xzl524/football_data_analysis/blob/master/projects/match_outcome_prediction/match_outcome_retrodiction_cn.ipynb)
 
 ### 技术说明
 * 编程工具：Python 3.5
@@ -49,7 +49,7 @@ Apply machine learning/data mining techniques to understand football (soccer).
 	1. [Relative age effect in football and others](https://github.com/xzl524/football_data_analysis/blob/master/projects/european_soccer_database_analysis/01_relative_age_effect_and_others.ipynb)
 	2. [Predict goal occurrence with Poisson model](https://github.com/xzl524/football_data_analysis/blob/master/projects/european_soccer_database_analysis/02_goal_poisson.ipynb)
 * Football Match Outcome Prediction
-	- [Apply machine learning to analyze match outcome](https://github.com/xzl524/football_data_analysis/blob/master/projects/match_outcome_prediction/football_match_outcome_prediction_kaggle_dataset.ipynb)
+	1. [Apply machine learning to analyze match outcome](https://github.com/xzl524/football_data_analysis/blob/master/projects/match_outcome_prediction/match_outcome_retrodiction_kaggle.ipynb)
 
 ### Requirements
 * Programming: Python 3.5
