@@ -14,10 +14,12 @@
 * 足球比赛预测
 	1. [利用机器学习分析足球比赛结果（使用Kaggle欧洲足球数据库）](https://github.com/xzl524/football_data_analysis/blob/master/projects/match_outcome_prediction/match_outcome_retrodiction_kaggle_cn.ipynb)
 	2. [利用机器学习分析足球比赛结果（使用Squawka数据）](https://github.com/xzl524/football_data_analysis/blob/master/projects/match_outcome_prediction/match_outcome_retrodiction_squawka_cn.ipynb)
-* 足球比赛赔率分析
+* 赔率
 	1. [博彩赔率背后的数学公式](https://github.com/xzl524/football_data_analysis/blob/master/projects/betting/odds_math.ipynb)
+* 点球
+	1. [职业足球比赛中，守门员扑点球只能靠猜吗？（博弈论）](https://github.com/xzl524/football_data_analysis/blob/master/projects/penalty/penalty_game_theory.ipynb)
 
 ### 技术说明
 * 编程工具：Python 3.5
-* 数学理论：概率论与数理统计，以及由此发展出来的机器学习算法。
+* 数学理论：概率论与数理统计，以及由此发展出来的机器学习算法，博弈论。
 * 语言能力：中文叙述以及一定的英文。
