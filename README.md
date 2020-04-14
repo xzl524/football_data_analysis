@@ -6,8 +6,8 @@
 
 ### 数据来源
 
-* [Kaggle欧洲足球数据库](https://www.kaggle.com/hugomathien/soccer)：[数据准备指南](https://github.com/xzl524/football_data_analysis/tree/master/data_source/kaggle)
-* [Squawka足球数据网站](https://www.squawka.com/en/)：[数据准备指南](https://github.com/xzl524/football_data_analysis/tree/master/data_source/squawka)
+* [Kaggle欧洲足球数据库](https://www.kaggle.com/hugomathien/soccer)：[数据使用指南](https://github.com/xzl524/football_data_analysis/tree/master/data_source/kaggle)
+* [Squawka足球数据网站](https://www.squawka.com/en/)：[数据使用指南](https://github.com/xzl524/football_data_analysis/tree/master/data_source/squawka)
 
 ### 项目列表（持续更新）
 * 比赛
