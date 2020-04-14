@@ -14,7 +14,7 @@
 	* [足球比赛的进球规律](https://github.com/xzl524/football_data_analysis/blob/master/notebooks/goal_poisson_cn.ipynb)
 	* [比赛结果与各项数据统计的相关关系](https://github.com/xzl524/football_data_analysis/blob/master/notebooks/correlation_analysis_match_results_with_event_stats.ipynb)
 * 球员
-	[足球运动员的相对年龄效应以及其他](https://github.com/xzl524/football_data_analysis/blob/master/notebooks/relative_age_effect_and_others_cn.ipynb)
+	* [足球运动员的相对年龄效应以及其他](https://github.com/xzl524/football_data_analysis/blob/master/notebooks/relative_age_effect_and_others_cn.ipynb)
 * 点球
 	* [职业足球比赛中，守门员扑点球只能靠猜吗？——利用博弈论分析点球规律](https://github.com/xzl524/football_data_analysis/blob/master/notebooks/penalty_game_theory.ipynb)	
 
