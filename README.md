@@ -11,6 +11,7 @@
 
 ### 项目列表（持续更新）
 * 比赛
+	* [用数学和机器学习解析足球比赛预测与投注](https://github.com/xzl524/football_data_analysis/blob/master/notebooks/predict_football_match_outcome.ipynb)
 	* [足球比赛的进球规律](https://github.com/xzl524/football_data_analysis/blob/master/notebooks/goal_poisson_cn.ipynb)
 	* [比赛结果与各项数据统计的相关关系](https://github.com/xzl524/football_data_analysis/blob/master/notebooks/correlation_analysis_match_results_with_event_stats.ipynb)
 * 球员
