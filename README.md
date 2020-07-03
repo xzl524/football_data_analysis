@@ -2,12 +2,13 @@
 
 ### 研究目的
 
-* 利用数学和数据来理解足球
+* 利用数学和数据理解足球
 
 ### 数据来源
 
 * [Kaggle欧洲足球数据库](https://www.kaggle.com/hugomathien/soccer)：[数据使用指南](https://github.com/xzl524/football_data_analysis/tree/master/data_source/kaggle)
 * [Squawka足球数据网站](https://www.squawka.com/en/)：[数据使用指南](https://github.com/xzl524/football_data_analysis/tree/master/data_source/squawka)
+* [football-data足球数据网站](https://www.football-data.co.uk/data.php)
 
 ### 项目列表（持续更新）
 * 比赛
